@@ -1,0 +1,144 @@
+/* Reset & global style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+}
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #064440;
+  padding: 1rem 2rem;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Brand name */
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Navigation links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  padding-left: 1rem;
+}
+
+/* Rainbow hover effect */
+.nav-links li a:hover {
+  background: linear-gradient(45deg, red, orange, yellow, green, cyan, blue, violet);
+  background-size: 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbowGlow 4s linear infinite;
+  text-shadow: 0 0 5px rgba(255,255,255,0.3), 0 0 10px currentColor;
+}
+
+/* Rainbow animation */
+@keyframes rainbowGlow {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
+
+/* Horizontal border between items */
+.nav-links li {
+  width: 100%;
+  border-bottom: 1px solid #004d40;
+}
+
+.nav-links li:last-child {
+  border-bottom: none;
+}
+
+/* Hamburger icon */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: white;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+/* Hamburger open animation (transform to X) */
+.hamburger.open span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Lightsaber Glow on X */
+.hamburger.open span {
+  box-shadow: 0 0 6px #00f0ff, 0 0 12px #00f0ff;
+}
+
+/* Responsive style */
+@media (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: #05004bd6;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
+    max-height: 0;
+    padding: 0;
+    gap: 0;
+    transition: max-height 0.4s ease;
+  }
+
+  .nav-links li a {
+    padding: 0.75rem 1rem 0.75rem 2.5rem;
+    width: 100%;
+  }
+
+  .nav-links.active {
+    max-height: 300px;
+    padding: 1rem 0;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
