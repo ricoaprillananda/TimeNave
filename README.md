@@ -38,8 +38,6 @@ Elegant, animated, and engineered to glow.
 
 ### How to Use
 
-```
-
 1. Clone this repo:
 
 ```
