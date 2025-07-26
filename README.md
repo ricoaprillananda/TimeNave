@@ -5,6 +5,17 @@ Elegant, animated, and engineered to glow.
 
 ---
 
+### Features
+
+-  Rainbow hover effect (lightsaber-inspired)
+-  Fully responsive: desktop and mobile
+-  Hamburger menu transforms into X with glow
+-  Glowing effects on hover and toggle
+-  Smooth horizontal dividers between menu items
+-  Clean, modern UI with futuristic energy
+
+-  ---
+
 ### Live Preview
 
 🍃🐜> **[View Live on GitHub Pages](https://ricoaprillananda.github.io/TimeNave/)** 
@@ -18,27 +29,11 @@ Elegant, animated, and engineered to glow.
 
 ---
 
-### Features
-
--  Rainbow hover effect (lightsaber-inspired)
--  Fully responsive: desktop and mobile
--  Hamburger menu transforms into X with glow
--  Glowing effects on hover and toggle
--  Smooth horizontal dividers between menu items
--  Clean, modern UI with futuristic energy
-
----
-
 ### Tech Stack
-
-```
 
 - **HTML5**
 - **CSS3** (Flexbox, Media Queries, Keyframes)
 - **Vanilla JavaScript**
-
-```
-
 ---
 
 ### How to Use
@@ -50,8 +45,6 @@ Elegant, animated, and engineered to glow.
    git clone https://github.com/ricoaprillananda/TimeNave.git
 
 ```
-  
-
 ---
 
 💎 Designed & Engineered by
