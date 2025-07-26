@@ -1,4 +1,4 @@
-# TimeNavé
+# TimeNavé 🩵💚💜
 
 A futuristic, lightsaber-inspired responsive navigation bar — built with pure HTML, CSS, and JavaScript.  
 Elegant, animated, and engineered to glow.
@@ -7,7 +7,7 @@ Elegant, animated, and engineered to glow.
 
 ### Live Preview
 
-🍃🍃 **[View Live on GitHub Pages](https://ricoaprillananda.github.io/TimeNave/)** 🍃
+**[View Live on GitHub Pages](https://ricoaprillananda.github.io/TimeNave/)** 
 
 ---
 
