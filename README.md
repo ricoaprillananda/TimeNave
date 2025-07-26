@@ -14,7 +14,7 @@ Elegant, animated, and engineered to glow.
 -  Smooth horizontal dividers between menu items
 -  Clean, modern UI with futuristic energy
 
--  ---
+---
 
 ### Previews
 
@@ -41,9 +41,9 @@ Elegant, animated, and engineered to glow.
 ```
 
 1. Clone this repo:
-   ```bash
-   git clone https://github.com/ricoaprillananda/TimeNave.git
 
+```
+   git clone https://github.com/ricoaprillananda/TimeNave.git
 ```
 ---
 
