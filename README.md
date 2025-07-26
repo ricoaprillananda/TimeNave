@@ -16,16 +16,16 @@ Elegant, animated, and engineered to glow.
 
 -  ---
 
-### Live Preview
-
-🍃🐜> **[View Live on GitHub Pages](https://ricoaprillananda.github.io/TimeNave/)** 
-
----
-
 ### Previews
 
 #### Desktop View
 ![Desktop Preview](preview1.PNG)
+
+---
+
+### Live Preview
+
+🍃🐜> **[View Live on GitHub Pages](https://ricoaprillananda.github.io/TimeNave/)** 
 
 ---
 
