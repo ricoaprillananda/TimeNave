@@ -41,7 +41,7 @@ Elegant, animated, and engineered to glow.
 
 ---
 
-### 🛠 How to Use
+### How to Use
 
 ```
 
