@@ -7,7 +7,7 @@ Elegant, animated, and engineered to glow.
 
 ### Live Preview
 
-🍃🐜 **[View Live on GitHub Pages](https://ricoaprillananda.github.io/TimeNave/)** 
+🍃🐜> **[View Live on GitHub Pages](https://ricoaprillananda.github.io/TimeNave/)** 
 
 ---
 
