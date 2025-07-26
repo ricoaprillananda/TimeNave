@@ -31,22 +31,31 @@ Elegant, animated, and engineered to glow.
 
 ### Tech Stack
 
+```
+
 - **HTML5**
 - **CSS3** (Flexbox, Media Queries, Keyframes)
 - **Vanilla JavaScript**
+
+```
 
 ---
 
 ### 🛠 How to Use
 
+```
+
 1. Clone this repo:
    ```bash
    git clone https://github.com/ricoaprillananda/TimeNave.git
+
+```
   
 
 ---
 
 💎 Designed & Engineered by
+
 
 🍃 Rico Aprilla Nanda
 Frontend Engineer • UI/UX Futurist • Lightsaber Coder
